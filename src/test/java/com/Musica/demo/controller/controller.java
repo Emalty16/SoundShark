@@ -14,7 +14,7 @@ import org.springframework.ui.Model;
 @Controller
 public class controller {
    public String goHome(Model model){
-       model.addAttribute("titulo","Bienvenido, pagina de inicio");
+   
        return "inicio";
    }
 }
