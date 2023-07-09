@@ -1,6 +1,6 @@
-/*--------------------- Copyright (c) 2018 -----------------------
+/*--------------------- -----------------------
 [Master Javascript]
-Project: Miraculous - Online Music Store Html Template
+Online Music Store Html Template
 Version: 1.0.0
 Assigned to: Theme Forest
 -------------------------------------------------------------------*/

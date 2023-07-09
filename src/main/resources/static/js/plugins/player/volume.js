@@ -1,11 +1,3 @@
-/* 
-Rotative knob, as used in Open Stage Control 
-https://github.com/jean-emmanuel/Open-Stage-Control
-(copyleft © jean-emmanuel // GNU/GPL3)
-
-This is just just a sample showing the knob widget. It's meant to be used in a chrome based application, hence compatibility issues were not taken into account.
-*/
-
 
 (function($) {
     
