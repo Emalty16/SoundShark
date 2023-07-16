@@ -194,9 +194,15 @@ figure {
 }
 
 img {
+  max-width: 200px; /* Adjust the value as needed */
+  display: block;
+  margin: 0 auto;
   vertical-align: middle;
   border-style: none;
+  margin-bottom: 2px; /* Adjust the value to reduce the space below the image */
 }
+
+
 
 svg:not(:root) {
   overflow: hidden;
@@ -461,7 +467,19 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+  /* Center the image in the box */
+  margin-left: auto;
+  margin-right: auto;
+  /* Add vertical space in the middle */
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+
 
 .img-thumbnail {
   padding: 0.25rem;

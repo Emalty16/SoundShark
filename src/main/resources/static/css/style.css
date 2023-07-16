@@ -63,10 +63,10 @@ h6,
 	font-family: inherit;
 	font-weight: 600;
 	line-height: 1.2;
-	color: #3bc8e7;
+	color: #c8eff4;
 }
 a {
-	color: #3bc8e7;
+	color: #c8eff4;
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -80,7 +80,7 @@ button:focus {
 	outline: none;
 }
 .ms_color {
-	color: #3bc8e7 !important
+	color: #F37042 !important
 }
 .form-control {
 	height: 40px;
@@ -372,7 +372,7 @@ body.loaded .ms_loader {
 .ms_sidemenu_wrapper {
 	position: fixed;
 	width: 80px;
-	background-color: #1b2039;
+	background-color: #022249;
 	height: 100%;
 	z-index: 10000;
 	top: 0;
@@ -395,7 +395,7 @@ body.loaded .ms_loader {
 	align-items: center;
 	justify-content: center;
 	display: flex;
-	min-height: 164px;
+	min-height: 100px;
 }
 .ms_nav_wrapper {
 	padding: 0px 0px;
@@ -442,13 +442,13 @@ body.loaded .ms_loader {
 }
 .ms_nav_wrapper ul li a:hover,
 .ms_nav_wrapper ul li a.active {
-	background-color: #2cc8e5;
+	background-color: #F37042;
 	background-position: 0px 0px;
 	color: #ffffff;
 }
 .ms_nav_wrapper ul li a:hover:after,
 .ms_nav_wrapper ul li a.active:after {
-	background-color: #3bc8e7;
+	background-color: #c8eff4;
 }
 .ms_nav_wrapper ul li a:hover span.nav_icon>.icon,
 .ms_nav_wrapper ul li a.active span.nav_icon>.icon {
@@ -608,7 +608,7 @@ span.nav_text {
 }
 .ms_sidemenu_inner {
 	width: 80px;
-	background-color: #1b2039;
+	background-color: #022249;
 	height: 100%;
 	z-index: 1;
 }
@@ -691,7 +691,7 @@ span.nav_text {
 }
 .ms_header {
 	position: fixed;
-	background-color: #1b2039;
+	background-color: #022249;
 	padding: 20px 50px;
 	right: 0;
 	left: 80px;
@@ -713,7 +713,7 @@ span.nav_text {
 	top: 0;
 	height: 40px;
 	line-height: 40px;
-	background-color: #3bc8e7;
+	background-color: #F37042;
 	border-radius: 0px 5px 5px 0px;
 	padding: 0px 16px;
 	cursor: pointer;
@@ -741,7 +741,7 @@ span.nav_text {
 	display: flex;
 	place-content: flex-end;
 }
-.ms_top_right .ms_top_lang {
+.ms_top_right .ms_top_tempt {
 	color: #ffffff;
 	text-transform: capitalize;
 	display: inline-block;
@@ -753,10 +753,10 @@ span.nav_text {
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 }
-.ms_top_right .ms_top_lang:hover {
+.ms_top_right .ms_top_tempt:hover {
 	color: #3bc8e7;
 }
-.ms_top_right .ms_top_lang:after {
+.ms_top_right .ms_top_tempt:after {
 	position: absolute;
 	background-color: #cdcdcd;
 	height: 30px;
@@ -766,27 +766,29 @@ span.nav_text {
 	top: 6px;
 }
 .ms_btn {
-	background-color: #3bc8e7;
-	color: #fff;
-	height: 30px;
-	display: inline-block;
-	text-transform: capitalize;
-	width: 100px;
-	text-align: center;
-	line-height: 32px;
-	border-radius: 20px;
-	margin-left: 15px;
-	transition: all 0.4s ease-in-out;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
+  background-color: #F37042;
+  color: #fff;
+  height: 30px;
+  display: inline-block;
+  text-transform: capitalize;
+  width: 100px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 20px;
+  margin-left: 15px;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  float: right;
 }
+
 .ms_btn:hover {
 	color: #ffffff;
 	box-shadow: 0px 0px 20px 0px #3bc8e7;
 }
-.ms_top_right .ms_top_lang img {
+.ms_top_right .ms_top_tempt img {
 	margin-left: 15px;
 	margin-right: 6px;
 }
@@ -811,7 +813,7 @@ ul.ms_lang_box {
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 }
-.ms_top_right .ms_top_lang:hover ul.ms_lang_box {
+.ms_top_right .ms_top_tempt:hover ul.ms_lang_box {
 	transform: translateY(0);
 	-webkit-transform: translateY(0);
 	-moz-transform: translateY(0);
@@ -1706,9 +1708,9 @@ h1.footer_title:after {
 	line-height: 40px;
 	float: left;
 	border-radius: 5px;
-	background-image: -moz-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -webkit-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
+	background-image: -moz-linear-gradient( 90deg, #f07c41 0%, #f5a37a 100%);
+	background-image: -webkit-linear-gradient( 90deg, #f07c41 0%, #f5a37a 100%);
+	background-image: -ms-linear-gradient( 90deg, #f07c41 0%, #f5a37a 100%);
 }
 .footer_box.footer_contacts ul.foo_con_info li .foo_con_data {
 	width: calc(100% - 40px);
@@ -1760,9 +1762,9 @@ h1.footer_title:after {
 	text-align: center;
 	line-height: 35px;
 	border-radius: 5px;
-	background-image: -moz-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -webkit-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
+	background-image: -moz-linear-gradient( 90deg, #f07c41 0%, #f5a37a 100%);
+	background-image: -webkit-linear-gradient( 90deg, #f07c41 0%, #f5a37a 100%);
+	background-image: -ms-linear-gradient( 90deg, #f07c41 0%, #f5a37a 100%);
 }
 .foo_sharing ul li a:hover {
 	box-shadow: 0 0 18px 0 #3bc8e7;
@@ -1929,6 +1931,7 @@ span.play-left-arrow {
 	width: 300px;
 	padding: 13px 0px 15px 30px;
 	height: 75px;
+        background-color: #9aa7b6;
 }
 .play_song_options {
 	float: left;
@@ -2201,7 +2204,7 @@ i.ms_icon.icon_share {
 	right: -7px;
 	height: 15px;
 	width: 15px;
-	background: #3bc8e7;
+	background: #9aa7b6;
 	border-radius: 50%;
 	box-shadow: 0px 0px 15px rgb(255, 255, 255);
 }
@@ -2349,7 +2352,7 @@ i.ms_icon.icon_share {
 	margin-top: 26px;
 }
 .jp_queue_wrapper span.que_text {
-	background-color: #2ec8e6;
+	background-color: #9aa7b6;
 	height: 30px;
 	display: inline-block;
 	line-height: 33px;
@@ -3503,13 +3506,13 @@ button.save_btn:hover {
 	left: -21px;
 	top: 6px;
 }
-.ms_main_wrapper.ms_profile .ms_top_right .ms_top_lang:after {
+.ms_main_wrapper.ms_profile .ms_top_right .ms_top_tempt:after {
 	right: 19px;
 }
 .ms_admin_name span {
 	margin-right: 10px;
 }
-.ms_main_wrapper.ms_profile .ms_top_lang {
+.ms_main_wrapper.ms_profile .ms_top_tempt {
 	padding-right: 34px;
 }
 .ms_admin_name span.ms_pro_name {
@@ -4429,7 +4432,7 @@ h2.widget-title:after {
 	.ms_profile .ms_top_btn .ms_btn {
 		margin-top: 6px;
 	}
-	.ms_profile .ms_top_right .ms_top_lang:after {
+	.ms_profile .ms_top_right .ms_top_tempt:after {
 		display: none;
 	}
 	.ms_admin_name:before {
@@ -4441,7 +4444,7 @@ h2.widget-title:after {
 	.ms_free_download .album_list_wrapper>ul>li {
 		width: 13%;
 	}
-	.ms_main_wrapper.ms_profile .ms_top_lang {
+	.ms_main_wrapper.ms_profile .ms_top_tempt {
 		padding-right: 15px;
 	}
 	.ms_main_wrapper.ms_profile .ms_top_trend {
@@ -4493,7 +4496,7 @@ h2.widget-title:after {
 	.ms_weekly_wrapper.ms_free_music .weekly_right {
 		right: 0;
 	}
-	.ms_top_right .ms_top_lang:after {
+	.ms_top_right .ms_top_tempt:after {
 		display: none;
 	}
 	span.ovrly_text1 a {
@@ -4508,7 +4511,7 @@ h2.widget-title:after {
 	.ms_header {
 		padding: 20px 30px;
 	}
-	.ms_top_right .ms_top_lang {
+	.ms_top_right .ms_top_tempt {
 		padding-right: 5px;
 	}
 	.ms_profile .ms_top_btn {
@@ -4972,7 +4975,7 @@ h2.widget-title:after {
 	.album_list_wrapper ul.more_option {
 		right: 80px;
 	}
-	.ms_top_right .ms_top_lang:after {
+	.ms_top_right .ms_top_tempt:after {
 		display: none;
 	}
 	.ms_cmnt_form .ms_input_group {
@@ -5063,13 +5066,13 @@ h2.widget-title:after {
 	.w_top_song .w_tp_song_name {
 		padding-left: 12px;
 	}
-	.ms_top_right .ms_top_lang {
+	.ms_top_right .ms_top_tempt {
 		top: 8px;
 	}
 	.ms_profile .ms_top_btn .ms_btn {
 		margin-top: 8px;
 	}
-	.ms_main_wrapper.ms_profile .ms_top_lang {
+	.ms_main_wrapper.ms_profile .ms_top_tempt {
 		top: 18px;
 	}
 	.ms_admin_name span.ms_pro_name {
@@ -5388,7 +5391,7 @@ h2.widget-title:after {
 	.ms_nav_close .fa-angle-right:before {
 		content: "\f0c9";
 	}
-	.ms_top_right .ms_top_lang {
+	.ms_top_right .ms_top_tempt {
 		float: left;
 		position: relative;
 		top: 8px;
@@ -5952,7 +5955,7 @@ h2.widget-title:after {
 	.ms_top_btn .ms_btn span {
 		display: none;
 	}
-	.ms_top_right .ms_top_lang {
+	.ms_top_right .ms_top_tempt {
 		display: none;
 	}
 	.ms_free_download .album_list_wrapper {
@@ -6011,7 +6014,7 @@ h2.widget-title:after {
 	.ms_main_wrapper.ms_profile .ms_header {
 		padding: 10px 30px 5px;
 	}
-	.ms_main_wrapper.ms_profile .ms_top_lang {
+	.ms_main_wrapper.ms_profile .ms_top_tempt {
 		display: none;
 	}
 	.ms_main_wrapper.ms_profile .ms_nav_close {
@@ -6233,11 +6236,11 @@ h2.widget-title:after {
 		margin-right: 0px;
 		margin-bottom: 10px;
 	}
-	.ms_top_right .ms_top_lang {
+	.ms_top_right .ms_top_tempt {
 		width: 100%;
 		text-align: center;
 	}
-	.ms_top_right .ms_top_lang:after {
+	.ms_top_right .ms_top_tempt:after {
 		display: none;
 	}
 	.ms_banner_text h1 {
